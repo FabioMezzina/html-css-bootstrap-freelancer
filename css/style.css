@@ -11,6 +11,10 @@ body {
   background-color: #1abc9c;
 }
 
+#about {
+  background-color: #1abc9c;
+}
+
 /* debug box */
 .box {
   background: rgba(255,0,0,0.6);
