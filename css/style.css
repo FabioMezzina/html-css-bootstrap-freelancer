@@ -147,3 +147,48 @@ footer {
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+
+/* CONTACT */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  margin-bottom: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 25px 0;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  height: 60px;
+  line-height: 60px;
+}
+
+.form-group textarea {
+  height: 200px;
+  padding: 15px 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #2c3e50;
+}
+
+.form-group ::placeholder {
+  font-size: 20px;
+  color: #6c758d;
+}
+
+.btn-send {
+  border-color: transparent;
+  transition: .3s;
+}
+
+.btn-send:hover {
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+}
