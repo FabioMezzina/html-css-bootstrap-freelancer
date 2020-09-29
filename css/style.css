@@ -9,6 +9,11 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
 p {
   font-size: 20px;
 }
@@ -20,6 +25,10 @@ p {
 
 .mb-50 {
   margin-bottom: 25px;
+}
+
+.color-blue {
+  color: #2c3e50;
 }
 
 footer {
@@ -42,7 +51,7 @@ footer {
 #portfolio,
 #about,
 #contact {
-  padding: 100px 0;
+  padding: 80px 0 100px;
 }
 
 /* debug box */
@@ -98,4 +107,9 @@ footer {
 /* MAIN HEADER */
 #main-head img {
   width: 240px;
+}
+
+/* PORTFOLIO */
+#portfolio [class*="col-xs-"] {
+  margin-bottom: 50px;
 }
