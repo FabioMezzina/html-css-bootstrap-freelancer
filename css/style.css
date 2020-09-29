@@ -234,21 +234,28 @@ footer {
   border-color: #f8f9fa;
 }
 
+#about .btn-default:focus {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  box-shadow: 0 0 0 3px rgba(248, 249, 250, 0.5);
+}
+
 /* CONTACT */
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
+.form-group .form-control {
   margin-bottom: 50px;
+  padding: 0 0;
   border-top: none;
   border-left: none;
   border-right: none;
   box-shadow: none;
   border-radius: 0;
-  padding: 25px 0;
+  font-size: 20px;
+  color: #2c3e50;
 }
 
-.form-group input[type="text"],
-.form-group input[type="email"] {
+.form-group .form-control[type="text"],
+.form-group .form-control[type="email"] {
   height: 60px;
   line-height: 60px;
 }
@@ -268,22 +275,33 @@ footer {
   color: #6c758d;
 }
 
-.btn-send {
+.btn.btn-send {
   border-color: transparent;
   transition: .3s;
 }
 
-.btn-send:hover {
+.btn.btn-send:hover {
   color: #fff;
   background-color: #159a80;
   border-color: #148f77;
+}
+
+.btn.btn-send:focus {
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+  box-shadow: 0 0 0 3px rgba(60, 198, 171, 0.5);
 }
 
 /* footer */
 footer [class*="col-"]:not(:last-of-type) {
   margin-bottom: 25px;
 }
+
 footer li i {
+  display: block;
+  width: 50px;
+  height: 50px;
   padding: 15px;
   font-size: 16px;
   border: 2px solid #fff;
