@@ -9,16 +9,19 @@ h2,
 h3,
 h4 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 44px;
-  font-weight: 700;
 }
 
 h2 {
   font-size: 36px;
-  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 p {
@@ -58,7 +61,8 @@ footer {
 #main-head,
 #portfolio,
 #about,
-#contact {
+#contact,
+footer {
   padding: 80px 0 100px;
 }
 
@@ -191,4 +195,37 @@ footer {
   color: #fff;
   background-color: #159a80;
   border-color: #148f77;
+}
+
+/* footer */
+footer [class*="col-"] {
+  margin-bottom: 25px;
+}
+footer li i {
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  transition: .2s;
+}
+
+footer li:hover i {
+  color: #2c3e50;
+  border-color: #2c3e50;
+  background-color: #fff;
+}
+
+footer a:focus i {
+  color: #2c3e50;
+  border-color: #2c3e50;
+  background-color: #fff;
+  border: 2px solid #89939e;
+}
+
+.start-boot {
+  color:#1abc9c;
+}
+.start-boot:hover {
+  color: #117964
 }
