@@ -331,6 +331,9 @@ footer a:focus i {
 /* COPYRIGHT */
 .copyright {
   height: 60px;
+}
+
+.copyright small {
   line-height: 60px;
 }
 
