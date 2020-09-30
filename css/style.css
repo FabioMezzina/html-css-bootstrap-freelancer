@@ -344,12 +344,6 @@ footer a:focus i {
     display: inline-block;
     width: 100px;
   }
-
-  #portfolio .row > div:nth-of-type(5),
-  #portfolio .row > div:nth-of-type(6),
-  #portfolio .row > div:nth-of-type(7) {
-    margin-bottom: 0;
-  }
 }
 
 /* DESKTOP MEDIAQUERY */
@@ -363,5 +357,11 @@ footer a:focus i {
   /* main header */
   #main-head h1 {
     font-size: 64px;
+  }
+
+  #portfolio .row > div:nth-of-type(5),
+  #portfolio .row > div:nth-of-type(6),
+  #portfolio .row > div:nth-of-type(7) {
+    margin-bottom: 0;
   }
 }
