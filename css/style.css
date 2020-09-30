@@ -296,6 +296,11 @@ footer ul {
   margin-bottom: 0;
 }
 
+footer a {
+  display: inline-block;
+  border-radius: 50%;
+}
+
 footer li i {
   display: block;
   width: 50px;
@@ -308,9 +313,8 @@ footer li i {
   transition: .2s;
 }
 
-footer li:hover i {
+footer a:hover i {
   color: #2c3e50;
-  border-color: #2c3e50;
   background-color: #fff;
 }
 
