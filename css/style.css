@@ -364,4 +364,8 @@ footer a:focus i {
   #portfolio .row > div:nth-of-type(7) {
     margin-bottom: 0;
   }
+
+  footer [class*="col-"]:not(:last-of-type) {
+    margin-bottom: 0;
+  }
 }
