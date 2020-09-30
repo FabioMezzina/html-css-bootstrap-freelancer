@@ -10,6 +10,7 @@ h1,
 h2,
 h3,
 h4 {
+  margin-top: 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
@@ -65,7 +66,7 @@ footer {
 #about,
 #contact,
 footer {
-  padding: 80px 0 100px;
+  padding: 100px 0 100px;
 }
 
 .btn-default {
@@ -334,6 +335,15 @@ footer a:focus i {
 .copyright {
   height: 60px;
   line-height: 60px;
+}
+
+/* TABLET MEDIAQUERY */
+@media screen and (min-width: 768px) {
+  #portfolio .row > div:nth-of-type(5),
+  #portfolio .row > div:nth-of-type(6),
+  #portfolio .row > div:nth-of-type(7) {
+    margin-bottom: 0;
+  }
 }
 
 /* DESKTOP MEDIAQUERY */
