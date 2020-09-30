@@ -84,16 +84,17 @@ footer {
 }
 
 .star i {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .star::before,
 .star::after {
   display: inline-block;
+  width: 80px;
+  height: 4px;
   content: '';
   background-color: #fff;
-  width: 120px;
-  height: 3px;
+  border-radius: 5px;
   vertical-align: middle;
 }
 
@@ -330,6 +331,20 @@ footer a:focus i {
 
 /* TABLET MEDIAQUERY */
 @media screen and (min-width: 768px) {
+  .star {
+    font-size: 40px;
+  }
+
+  .star i {
+    margin: 0 15px;
+  }
+
+  .star::before,
+  .star::after {
+    display: inline-block;
+    width: 100px;
+  }
+
   #portfolio .row > div:nth-of-type(5),
   #portfolio .row > div:nth-of-type(6),
   #portfolio .row > div:nth-of-type(7) {
