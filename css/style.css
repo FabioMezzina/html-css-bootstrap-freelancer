@@ -173,7 +173,7 @@ footer {
   margin-bottom: 50px;
 }
 
-#portfolio [class*="col-xs-"] img {
+#portfolio .overlay img {
   transition: .3s;
 }
 
@@ -183,14 +183,14 @@ footer {
   line-height: 100%;
 }
 
-#portfolio .row > div:not(:first-child) a .overlay {
+#portfolio .overlay {
   width: 100%;
   height: 100%;
   background-color: #1abc9c;
   border-radius: 8px;
 }
 
-#portfolio .row > div:not(:first-child) a i {
+#portfolio .overlay i {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -202,11 +202,11 @@ footer {
   transition: .3s;
 }
 
-#portfolio .row > div:not(:first-child) a:hover i {
+#portfolio a:hover .overlay i {
   opacity: 1;
 }
 
-#portfolio .row > div:not(:first-child) a:hover img {
+#portfolio a:hover .overlay img {
   opacity: .1;
 }
 
