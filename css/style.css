@@ -288,7 +288,12 @@ footer {
 
 /* footer */
 footer [class*="col-"]:not(:last-of-type) {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+footer p,
+footer ul {
+  margin-bottom: 0;
 }
 
 footer li i {
